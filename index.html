@@ -100,6 +100,20 @@
   .pub .ago.fresh{color:var(--accent)}
   .pub .abs{display:block;color:#a5acb6;font-size:11px}
   @media (max-width:960px){ .tcell{max-width:210px} .seller{display:none} th.seller,td.seller{display:none} .thumb{display:none} }
+  body.nooverflow{overflow-x:hidden}
+  @media (max-width:700px){
+    .wrap{padding:16px 12px 40px}
+    .meta{gap:10px;font-size:11.5px}
+    .chips{padding:10px 12px 0;gap:6px}
+    .chip{font-size:12px;padding:4px 10px}
+    #viewFresh .cview{display:none}
+    .panel{overflow-x:auto}
+    .tcell{max-width:150px}
+    table{min-width:100%}
+    .panel-head{padding:12px 13px}
+    th,td{padding:7px 8px}
+    .pub .abs{font-size:10.5px}
+  }
 </style>
 </head>
 <body>
